@@ -12,36 +12,38 @@ Can relationships between words in scientific documents provide useful informati
 
 ## Pipeline
 
-SciFact Dataset
-      ↓
+```
+SciFact Dataset[cite: 1, 3]
+       ↓
 Data Preprocessing
-      ↓
-Dense Retrieval Baseline
-      ↓
-Graph-of-Words Representation
-      ↓
-Graph-based Retrieval
-      ↓
-GNN / DGOW Experiments
-      ↓
-Retrieval Comparison
-      ↓
-RAG + Evaluation
+       ↓
+Dense Retrieval Baseline[cite: 3]
+       ↓
+Graph-of-Words Representation[cite: 3]
+       ↓
+Graph-based Retrieval[cite: 3]
+       ↓
+GNN / DGOW Experiments[cite: 3]
+       ↓
+Retrieval Comparison[cite: 3]
+       ↓
+RAG + Evaluation[cite: 3]
+```
 
+## Project Structure
 
-## Project Structure 
-scientific-literature-graph/
-│
-├── data/
-├── notebooks/
-├── src/
-│   └── gow_rag/
-├── results/
-├── paper/
-├── tests/
-├── requirements.txt
-└── README.md
-
+```text
+scientific-literature-gow-rag/[cite: 3]
+├── data/[cite: 3]
+├── notebooks/[cite: 3]
+├── src/[cite: 3]
+│   └── gow_rag/[cite: 3]
+├── results/[cite: 3]
+├── paper/[cite: 3]
+├── tests/[cite: 3]
+├── requirements.txt[cite: 3]
+└── README.md[cite: 3]
+```
 
 ## Dataset
 
@@ -55,5 +57,6 @@ Python-Pandas-NumPy-Jupyter-Hugging Face Datasets-Sentence Transformers-FAISS-Ne
 
 
 ## Author
+Kumkum Bhati
 Kumkum Bhati
 BCA - Data Science
