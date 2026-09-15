@@ -58,5 +58,3 @@ Python-Pandas-NumPy-Jupyter-Hugging Face Datasets-Sentence Transformers-FAISS-Ne
 
 ## Author
 Kumkum Bhati
-Kumkum Bhati
-BCA - Data Science
